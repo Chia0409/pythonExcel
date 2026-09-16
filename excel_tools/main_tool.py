@@ -27,7 +27,7 @@ def excel_sheet_loader(excel_path_input:str, target_sheet_input:list):
 # ===========================testing=============================================
 
 if __name__ == "__main__" :
-    dfs = excel_sheet_loader(excel_path_input="simulate.xlsx", target_sheet_input=[
+    dfs = excel_sheet_loader(excel_path_input="simulate/simulate.xlsx", target_sheet_input=[
             "fact_reimbursements",
             "fact_reimbursement_allocations",
             "dim_applicants",
